@@ -1,6 +1,6 @@
 ---
-related:
-  - pyenv.md
+layout: single
+title: Using Jupyterhub with pyenv
 ---
 # Using JupyterHub
 ## Installation Instructions
