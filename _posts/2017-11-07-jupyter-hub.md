@@ -1,8 +1,13 @@
 ---
 layout: single
 title: Using Jupyterhub with pyenv
+excerpt: I use jupyterhub a lot for data exploration and this is my setup for running it remotely
 ---
+
+I use jupyterhub a lot for data exploration and this is my setup for running from a remote workstation so I can access it in a browser from anywhere
+
 # Using JupyterHub
+
 ## Installation Instructions
 
 > Python 3.4 or greater
@@ -17,6 +22,7 @@ pip install --upgrade jupyterhub notebook
 ## Configure everything
 
 ## Run the server
+
 ```bash
 # With ssl
 $ jupyterhub --ip 10.0.1.2 --port 443 --ssl-key my_ssl.key --ssl-cert my_ssl.cert

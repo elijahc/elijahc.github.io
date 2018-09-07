@@ -1,0 +1,27 @@
+---
+layout: archive
+permalink: /
+title: "Recent Posts"
+# excerpt: ""
+author_profile: true
+# redirect_from:
+#   - /index.html
+feature_row:
+  - image_path: /startrail-stax.jpg
+    excerpt: "Recent photography posts"
+    url: /year-archive/
+    title: "Photography"
+  - image_path: /500x300.png
+    url: /year-archive/
+    title: "Science"
+  - image_path: /500x300.png
+    url: /year-archive/
+    title: "Dev"
+---
+{% include base_path %}
+
+<div class="grid__wrapper">
+  {% for post in site.posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

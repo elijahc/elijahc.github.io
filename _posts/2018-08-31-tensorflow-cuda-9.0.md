@@ -1,15 +1,16 @@
 ---
-# layout: single
 title: Tensorflow-GPU with CUDA 9.0 on ubuntu 16.04
 date: 2018-08-31
 permalink: /posts/2018/08/tensorflow-cuda-9.0/
-# tags:
-#   - cool posts
-#   - category1
-#   - category2
+excerpt: I recently upgraded from CUDA 8.0 to CUDA 9.0 so I could use Tensorflow 1.8 and wanted to document the process
+tags:
+  - ops
+  - python
+  - tensorflow
 ---
 
-## Introduction
+I recently upgraded from CUDA 8.0 to CUDA 9.0 so I could use Tensorflow 1.8.
+This was my process for updating.
 
 ## Getting Started
 
