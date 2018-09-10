@@ -1,19 +1,31 @@
 ---
 layout: splash
+classes: wide
 title: Astrophotography Checklist
 date: 2018-09-07
 permalink: /posts/2018/09/astrophoto-checklist/
-header:
-  teaser: 'startrail-stax.jpg'
-  overlay_image: 'startrail-stax.jpg'
-  overlay_filter: 0.5
 excerpt: "Recently I've been trying to get more into astrophotography and put together a checklist for shooting star trail sequences"
+category: photography
 tags:
-  - photography
+  - astro
+header:
+  teaser: 'milkyway.jpg'
+  overlay_image: 'milkyway.jpg'
+  overlay_filter: 0.5
+
+gallery:
+  - url: "https://www.instagram.com/p/BnX-Yf9BzSS/"
+    image_path: milkyway.jpg
+  - url: startrail-stax.jpg
+    image_path: startrail-stax.jpg
 ---
 
  I came across [this checklist](https://starcircleacademy.com/2010/11/stackers-checklist/) for setting up and taking startrail photos.
- I've modified it slightly based on my own workflow.
+ I've modified it slightly based on my own equipment and workflow.
+
+These are some example photos I've taken using this setup
+
+{% include gallery caption="Astrophotography photo samples" %}
 
 # Star trail Checklist
 
@@ -79,6 +91,7 @@ Num exposures        | >= 120
 - Check image composition, field of view
 - Set camera to Aperature priority mode if still light
 - Take several bracketed shots in daylight or twilight
+
 > PRO TIP: if it is already dark take a high ISO shot (ISO=2000; 30sec)
 
 ## Battery and Card Shuffle
@@ -98,6 +111,5 @@ Num exposures        | >= 120
 - Switch back to Bulb
 - Start timer
 - If possible, wait for first 2 shots
-> You can leave lens cap on for the first few exposures to collect DARK frames
 
-I recently took a trip out to Sand Dunes National Park and Preserve and shot a series of images I stacked into this:
+> You can leave lens cap on for the first few exposures to collect DARK frames

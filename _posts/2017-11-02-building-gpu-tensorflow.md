@@ -1,6 +1,9 @@
 ---
 layout: single
 title: Building Tensorflow from source with GPU bindings
+category: dev
+tags:
+  - python
 ---
 
 ## Introduction

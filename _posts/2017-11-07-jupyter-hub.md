@@ -2,6 +2,9 @@
 layout: single
 title: Using Jupyterhub with pyenv
 excerpt: I use jupyterhub a lot for data exploration and this is my setup for running it remotely
+category: dev
+tags:
+    - python
 ---
 
 I use jupyterhub a lot for data exploration and this is my setup for running from a remote workstation so I can access it in a browser from anywhere
