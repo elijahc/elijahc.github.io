@@ -1,6 +1,11 @@
 ---
-layout: single
+layout: splash
 title: Multi-user Jupyterhub
+date: 2020-01-11
+header:
+  teaser: 'jupyter.png'
+  overlay_image: 'jupyter.png'
+  overlay_filter: 0.5
 category: dev
 tags:
     - python
