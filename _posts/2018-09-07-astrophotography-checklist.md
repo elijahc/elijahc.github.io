@@ -9,14 +9,14 @@ category: photography
 tags:
   - astro
 header:
-  teaser: 'milkyway.jpg'
-  overlay_image: 'milkyway.jpg'
+  teaser: 'astrophoto-sanddunes.png'
+  overlay_image: 'astrophoto-sanddunes.png'
   overlay_filter: 0.5
 
 gallery:
   - url: "https://www.instagram.com/p/BnX-Yf9BzSS/"
     image_path: milkyway.jpg
-  - url: startrail-stax.jpg
+  - url: "https://flic.kr/p/2aSEBes"
     image_path: startrail-stax.jpg
 ---
 
