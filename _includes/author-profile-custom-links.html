@@ -5,23 +5,3 @@
     </a>
   </li>
 -->
-{% if author.googlescholar %}
-  <li>
-    <a href="{{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar
-    </a>
-  </li>
-{% endif %}
-
-{% if author.orcid %}
-  <li>
-    <a href="{{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="ai ai-orcid-square ai-fw"></i> ORCID
-    </a>
-  </li>
-{% endif %}
-
-{% if author.wikipedia %}
-  <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
-<!-- <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li> -->
