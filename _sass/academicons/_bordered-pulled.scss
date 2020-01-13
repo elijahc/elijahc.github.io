@@ -1,0 +1,21 @@
+// Bordered & Pulled
+// -------------------------
+
+.#{$ai-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em $ai-border-color;
+  border-radius: .1em;
+}
+
+.#{$ai-css-prefix}-pull-left { float: left; }
+.#{$ai-css-prefix}-pull-right { float: right; }
+
+.#{$ai-css-prefix} {
+  &.#{$ai-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$ai-css-prefix}-pull-right { margin-left: .3em; }
+}
+
+.#{$ai-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}

@@ -1,0 +1,59 @@
+// Base Class Definition
+// -------------------------
+
+.#{$ai-css-prefix} {
+  display: inline-block;
+  font: normal normal normal #{$ai-font-size-base}/#{$ai-line-height-base} Academicons; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+// Mixins
+// --------------------------
+
+@mixin ai-icon() {
+  display: inline-block;
+  font: normal normal normal #{$ai-font-size-base}/#{$ai-line-height-base} Academicons; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+// Icon Sizes
+// -------------------------
+
+/* makes the font 33% larger relative to the icon container */
+.#{$ai-css-prefix}-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -15%;
+}
+.#{$ai-css-prefix}-2x { font-size: 2em; }
+.#{$ai-css-prefix}-3x { font-size: 3em; }
+.#{$ai-css-prefix}-4x { font-size: 4em; }
+.#{$ai-css-prefix}-5x { font-size: 5em; }
+
+// List Icons
+// -------------------------
+
+.#{$ai-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $ai-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$ai-css-prefix}-li {
+  position: absolute;
+  left: -$ai-li-width;
+  width: $ai-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$ai-css-prefix}-lg {
+    left: -$ai-li-width + (4em / 14);
+  }
+}

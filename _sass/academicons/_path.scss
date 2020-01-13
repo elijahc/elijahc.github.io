@@ -1,0 +1,14 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Academicons';
+  src: url('#{$ai-font-path}/academicons.eot?v=#{$ai-version}');
+  src: url('#{$ai-font-path}/academicons.eot?v=#{$ai-version}') format('embedded-opentype'),
+    url('#{$ai-font-path}/academicons.woff?v=#{$ai-version}') format('woff'),
+    url('#{$ai-font-path}/academicons.ttf?v=#{$ai-version}') format('truetype'),
+    url('#{$ai-font-path}/academicons.svg?v=#{$ai-version}#academicons') format('svg');
+//  src: url('#{$ai-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
