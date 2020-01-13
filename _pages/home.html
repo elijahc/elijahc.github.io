@@ -1,24 +1,11 @@
 ---
 layout: archive
 permalink: /
-title: "Home"
+title:
 author_profile: true
 # redirect_from:
 #   - /index.html
-feature_row:
-  - image_path: /startrail-stax.jpg
-    excerpt: "Recent photography posts"
-    url: /year-archive/
-    title: "Photography"
-  - image_path: /500x300.png
-    url: /year-archive/
-    title: "Science"
-  - image_path: /500x300.png
-    url: /year-archive/
-    title: "Dev"
 ---
-{% include base_path %}
-
 <h2>Recent Posts</h2>
 <div class="grid__wrapper">
 <!-- {% assign dev-posts = site.posts | where: "categories","dev" %} -->
@@ -33,3 +20,4 @@ feature_row:
   {% include archive-single.html type="grid"%}
 {% endfor %}
 </div>
+{% include base_path %}

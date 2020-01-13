@@ -16,23 +16,11 @@ sort_by: date
 
 {% include base_path %}
 
-[Education](#education)
+# [Education](#education)
 ======
 * B.S. in Bioengineering w/ Honors, University of Washington, 2011
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Neuroscience, University of Colorado - Anschutz Medical Campus, 2020 (expected)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 # [Awards](#awards)
 
 * National Defense Science and Engineering Graduate Fellowship
@@ -44,7 +32,3 @@ Work experience
 # [Presentations](#presentations)
 
 {% include cv-talks.html entries=site.talks %}
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
