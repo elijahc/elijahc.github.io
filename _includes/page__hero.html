@@ -13,7 +13,7 @@
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
-  {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: '/images/' | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.overlay_filter contains "rgba" %}
