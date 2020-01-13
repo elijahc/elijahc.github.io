@@ -1,12 +1,12 @@
 ---
 title: "Using deep learning to reveal the neural code for images in primary visual cortex"
 collection: publications
-permalink: /publication/
+permalink: /publication/using-deep-learning-to-reveal
 excerpt: 'We train deep convolutional neural networks to predict the firing rates of V1 neurons in response to natural images'
 date: 2017-06-19
-venue: 'Journal of Vision (in review)'
+venue: 'Journal of Vision'
 preprint: "https://arxiv.org/pdf/1706.06208"
-paperurl: 'https://arxiv.org/pdf/1706.06208'
+paperurl: 'https://jov.arvojournals.org/article.aspx?articleid=2732380'
 # citation: 'Kindel, W; Christensen, E; , You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
