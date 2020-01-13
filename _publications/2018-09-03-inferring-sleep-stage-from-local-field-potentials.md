@@ -7,9 +7,20 @@ excerpt: 'We trained a feedforward neural network to prospectively
 identify sleep stage with PSG‐level accuracy from 30‐s epochs of LFP recordings in human PD patients'
 date: 2018-09-03
 venue: 'Journal of Sleep Research'
+header:
+  teaser: jsr/fig2.jpg
 pdf: 'http://www.jzlab.org/Christensen_JSleepResearch2018_LFP_ANN_DBS.pdf'
 doi: 10.1111/jsr.12806
 citation: '<strong>Christensen, E</strong>; Abosch, A; Thompson JA; Zylberberg, J; (2019).'
+gallery:
+  - image_path: /images/jsr/fig1.jpg
+    url: /images/jsr/fig1.jpg
+    title: Figure 1
+  - image_path: /images/jsr/fig2.jpg
+    url: /images/jsr/fig2.jpg
+    title: Figure 2
+  - image_path: /images/jsr/fig3.jpg
+    title: Figure 3
 ---
 
 Parkinson's disease (PD) is highly comorbid with sleep dysfunction. In contrast to
@@ -31,4 +42,4 @@ which classify sleep stage across a typical heterogenous sample of PD patients, 
 indicate spectral biomarkers for automatically scoring sleep stage in PD patients with
 implanted DBS devices. Further development of this model may also focus on adapting stimulation during specific sleep stages to treat targeted sleep deficits.
 
-[Preprint](https://arxiv.org/pdf/1706.06208)
+{% include gallery  %}

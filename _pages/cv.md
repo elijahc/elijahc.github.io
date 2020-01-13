@@ -17,7 +17,7 @@ sort_by: date
 {% include base_path %}
 
 # [Education](#education)
-======
+
 * B.S. in Bioengineering w/ Honors, University of Washington, 2011
 * Ph.D in Neuroscience, University of Colorado - Anschutz Medical Campus, 2020 (expected)
 
