@@ -1,0 +1,21 @@
+{% assign entries = include.entries %}
+
+{% if page.sort_by == 'title' %}
+  {% if page.sort_order == 'reverse' %}
+    {% assign entries = entries | sort: 'title' | reverse %}
+  {% else %}
+    {% assign entries = entries | sort: 'title' %}
+  {% endif %}
+{% elsif page.sort_by == 'date' %}
+  {% if page.sort_order == 'reverse' %}
+    {% assign entries = entries | sort: 'date' | reverse %}
+  {% else %}
+    {% assign entries = entries | sort: 'date' %}
+  {% endif %}
+{% endif %}
+
+<ul>
+{%- for post in entries -%}
+  {% include archive-single-cv.html %}
+{%- endfor -%}
+</ul>

@@ -9,7 +9,7 @@ date: 2018-09-03
 venue: 'Journal of Sleep Research'
 pdf: 'http://www.jzlab.org/Christensen_JSleepResearch2018_LFP_ANN_DBS.pdf'
 doi: 10.1111/jsr.12806
-# citation: 'Kindel, W; Christensen, E; , You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: '<strong>Christensen, E</strong>; Abosch, A; Thompson JA; Zylberberg, J; (2019).'
 ---
 
 Parkinson's disease (PD) is highly comorbid with sleep dysfunction. In contrast to

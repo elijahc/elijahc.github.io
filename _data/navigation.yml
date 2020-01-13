@@ -10,12 +10,27 @@ main:
     url: /year-archive/
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /cv/
 
 #   - title: "Portfolio"
 #     url: /portfolio/
 
-  # - title: "CV"
-  #  url: /cv/
 
   # - title: "Guide"
   #  url: /markdown/
+
+cv:
+  - title: "Education"
+    url: '/cv/#education'
+    children:
+      - title: "2020 - PhD"
+      - title: "2011 - BS"
+  - title: "Awards"
+    url: /cv/#awards
+    children:
+      - title: "NDSEG"
+  - title: "Publications"
+    url: /cv/#publications
+  - title: "Presentations"
+    url: /cv/#presentations
