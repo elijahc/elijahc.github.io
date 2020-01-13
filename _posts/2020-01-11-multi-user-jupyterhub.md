@@ -10,24 +10,24 @@ tags:
 toc: true
 ---
 
-I've started and failed multiple times at hosting jupyterhub in a multi-user environment
+I've started and failed multiple times at hosting jupyterhub in a multi-user environment and I finally got it to work
 
 ## Install Jupyterhub
 
 ```bash
 # npm/node stuff
-$ sudo apt-get -y install npm nodejs
-$ sudo npm install -g configurable-http-proxy
+sudo apt-get -y install npm nodejs
+sudo npm install -g configurable-http-proxy
 
-$ sudo pip install jupyterhub oauthenticator
+sudo pip install jupyterhub oauthenticator
 
-$ sudo pip install --upgrade notebook
+sudo pip install --upgrade notebook
 ```
 
 Add Linux system users for everyone who will need access
 
 ```bash
-$ sudo adduser neuropil
+sudo adduser neuropil
 ```
 
 ## Running jupyterhub as sudo issues
@@ -50,9 +50,9 @@ Launching the sudospawner script is the only action that requires a JupyterHub a
 #### a. from source
 
 ```bash
-$ git clone https://github.com/jupyterhub/sudospawner
-$ cd sudospawner
-$ sudo pip install -e ./
+git clone https://github.com/jupyterhub/sudospawner
+cd sudospawner
+sudo pip install -e ./
 ```
 
 > pip install -e ./ installs a cloned git repo into your python env by linking the directory
@@ -60,7 +60,7 @@ $ sudo pip install -e ./
 #### b) using pypi
 
 ```bash
-$ sudo pip install sudospawner
+sudo pip install sudospawner
 ```
 
 > by default sudospawner binary is installed at /usr/local/bin/sudospawner
@@ -68,13 +68,13 @@ $ sudo pip install sudospawner
 ### Create jupyterhub user
 
 ```bash
-$ sudo useradd hub -r -s /bin/false
+sudo useradd hub -r -s /bin/false
 ```
 
 > This user shouldn't have a login shell or password (use -r -s /bin/false)
 
 ```bash
-$ sudo useradd hub -r
+sudo useradd hub -r
 ```
 
 ### Make Linux usergroup to denote which users hub can spawn notebooks for
@@ -82,16 +82,16 @@ $ sudo useradd hub -r
 Create the group
 
 ```bash
-$ sudo groupadd jupyterhub
+sudo groupadd jupyterhub
 
-$ sudo usermod -a -G jupyterhub hub
+sudo usermod -a -G jupyterhub hub
 ```
 
 Add jupyterhub users (students that need access) to this group
 ```bash
-$ sudo usermod -a -G jupyterhub elijahc
+sudo usermod -a -G jupyterhub elijahc
 
-$ sudo usermod -a -G jupyterhub neuropil
+sudo usermod -a -G jupyterhub neuropil
 ```
 
 Give hub user authority to run sudo spawner for jupyterhub users by editing /etc/sudoers adding the following:
@@ -110,7 +110,7 @@ rhea ALL=(%jupyterhub) NOPASSWD:JUPYTER_CMD
 This should prompt for your password to switch to rhea, but not prompt for any password for the second switch. It should show some help output about logging options:
 
 ```bash
-$ sudo -u rhea sudo -n -u $USER /usr/local/bin/sudospawner --help
+sudo -u rhea sudo -n -u $USER /usr/local/bin/sudospawner --help
 Usage: /usr/local/bin/sudospawner [OPTIONS]
 
 Options:
@@ -131,9 +131,9 @@ JupyterHub stores its state in a database, so it needs write access to a directo
 The simplest way to deal with this is to make a directory owned by your Hub user, and use that as the CWD when launching the server.
 
 ```bash
-$ sudo mkdir /etc/jupyterhub
+sudo mkdir /etc/jupyterhub
 
-$ sudo chown hub /etc/jupyterhub
+sudo chown hub /etc/jupyterhub
 ```
 
 ## Run Jupyterhub over a custom domain with https
@@ -149,9 +149,9 @@ I use google domains because I wrote a nice [python script](https://gist.github.
 ### Point the subdomain at your jupyterhub host
 
 ```bash
-$ wget https://gist.githubusercontent.com/elijahc/8abb89f55a49a1abc9b7dd478db89c06/raw/d356bbc811e1b140c36edbb4a05a171afa6fff8e/update-dns.py
+wget https://gist.githubusercontent.com/elijahc/8abb89f55a49a1abc9b7dd478db89c06/raw/d356bbc811e1b140c36edbb4a05a171afa6fff8e/update-dns.py
 
-$ sudo python update-dns.py
+sudo python update-dns.py
 ```
 
 your subdomain should now be pointed at the ip address of your jupyterhub host
@@ -159,9 +159,9 @@ your subdomain should now be pointed at the ip address of your jupyterhub host
 ### Create your own self-signed ssl cert
 
 ```bash
-$ cd /etc/jupyterhub
+cd /etc/jupyterhub
 
-$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
+openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
 ```
 
 ### Edit Jupyterhub configs
