@@ -33,6 +33,37 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
+
+    <p class="page__meta">
+    {% if post.arxiv %}
+      <a href="{{ post.arxiv }}"><i class="ai ai-fw ai-bioarxiv" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if post.pdf %}
+      <a href=
+      {% if post.pdf contains "://" %}
+        "{{ post.pdf }}"
+      {% else %}
+        "{{ post.pdf | prepend: "/files/" | relative_url }}"
+      {% endif %}
+      ><i class="fas fa-fw fa-download" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if post.code %}
+      <a href="{{ post.code }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if post.doi %}
+      <a href="https://doi.org/{{ post.doi }}"><i class="ai ai-fw ai-doi" aria-hidden="true"></i>{{post.doi}}</a>
+    {% endif %}
+    </p>
+
+
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+
+
+
+    </p>
   </article>
 </div>

@@ -1,8 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Recent Posts"
-# excerpt: ""
+title: "Home"
 author_profile: true
 # redirect_from:
 #   - /index.html
@@ -20,8 +19,17 @@ feature_row:
 ---
 {% include base_path %}
 
+<h2>Recent Posts</h2>
 <div class="grid__wrapper">
-  {% for post in site.posts limit:4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
+<!-- {% assign dev-posts = site.posts | where: "categories","dev" %} -->
+{% for post in site.posts limit:4 %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+
+<h2>Recent Publications</h2>
+<div class="grid__wrapper">
+{% for post in site.publications reversed %}
+  {% include archive-single.html type="grid"%}
+{% endfor %}
 </div>

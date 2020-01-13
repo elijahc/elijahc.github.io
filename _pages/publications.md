@@ -1,16 +1,8 @@
 ---
-layout: archive
-title: "Selected Publications"
+title: "Publications"
+layout: collection
 permalink: /publications/
+collection: publications
 author_profile: true
+sort_order: reverse
 ---
-
-{% if site.author.googlescholar %}
-  You can find a comprehensive list of articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}

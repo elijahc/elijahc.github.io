@@ -7,7 +7,8 @@ excerpt: 'We trained a feedforward neural network to prospectively
 identify sleep stage with PSG‐level accuracy from 30‐s epochs of LFP recordings in human PD patients'
 date: 2018-09-03
 venue: 'Journal of Sleep Research'
-paperurl: 'http://www.jzlab.org/Christensen_JSleepResearch2018_LFP_ANN_DBS.pdf'
+pdf: 'http://www.jzlab.org/Christensen_JSleepResearch2018_LFP_ANN_DBS.pdf'
+doi: 10.1111/jsr.12806
 # citation: 'Kindel, W; Christensen, E; , You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
@@ -31,5 +32,3 @@ indicate spectral biomarkers for automatically scoring sleep stage in PD patient
 implanted DBS devices. Further development of this model may also focus on adapting stimulation during specific sleep stages to treat targeted sleep deficits.
 
 [Preprint](https://arxiv.org/pdf/1706.06208)
-
-Recommended citation: arXiv: 1706.06208 [q-bio. NC]

@@ -9,6 +9,26 @@
 .#{$ai-css-prefix}-google-scholar-square:before { content: $ai-var-google-scholar-square; }
 .#{$ai-css-prefix}-orcid:before { content: $ai-var-orcid; }
 .#{$ai-css-prefix}-orcid-square:before { content: $ai-var-orcid-square; }
+.#{$ai-css-prefix}-arxiv:before { content: "\e808"; }
+.#{$ai-css-prefix}-arxiv-square:before { content: "\e809"; }
+.#{$ai-css-prefix}-bioarxiv:before { content: "\e810"; }
+.#{$ai-css-prefix}-bioarxiv-square:before { content: "\e811"; }
+.#{$ai-css-prefix}-doi:before { content: "\e822"; }
+.#{$ai-css-prefix}-doi-square:before { content: "\e823"; }
+
+  .ai-biorxiv:before {
+    content: "\e810";
+  }
+  .ai-biorxiv-square:before {
+    content: "\e811";
+  }
+
+//   .ai-doi:before {
+//     content: "\e822";
+//   }
+//   .ai-doi-square:before {
+//     content: "\e823";
+//   }
 
 // .ai-academia:before { content: "\e800";}
 //   .ai-academia-square:before {
@@ -32,18 +52,7 @@
 //   .ai-ads-square:before {
 //     content: "\e807";
 //   }
-//   .ai-arxiv:before {
-//     content: "\e808";
-//   }
-//   .ai-arxiv-square:before {
-//     content: "\e809";
-//   }
-//   .ai-biorxiv:before {
-//     content: "\e810";
-//   }
-//   .ai-biorxiv-square:before {
-//     content: "\e811";
-//   }
+
 //   .ai-ceur:before {
 //     content: "\e812";
 //   }
@@ -74,12 +83,7 @@
 //   .ai-depsy-square:before {
 //     content: "\e821";
 //   }
-//   .ai-doi:before {
-//     content: "\e822";
-//   }
-//   .ai-doi-square:before {
-//     content: "\e823";
-//   }
+
 //   .ai-dryad:before {
 //     content: "\e824";
 //   }
