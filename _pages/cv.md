@@ -16,19 +16,25 @@ sort_by: date
 
 {% include base_path %}
 
-# [Education](#education)
+## Contact
+<!-- <a href="mailto:{{author.email}}">
+  <i class='fab fa-fw fa-email'></i>{{author.email}}</a> -->
+<a href="github.com/elijahc">
+  <i class='fab fa-fw fa-github'></i>github.com/elijahc</a>
+
+## [Education](#education)
 
 * B.S. in Bioengineering w/ Honors, University of Washington, 2011
 * Ph.D in Neuroscience, University of Colorado - Anschutz Medical Campus, 2020 (expected)
 
-# [Awards](#awards)
+## [Awards](#awards)
 
 * National Defense Science and Engineering Graduate Fellowship
 
-# [Publications](#publications)
+## [Publications](#publications)
 
 {% include cv-publications.html entries=site.publications %}
 
-# [Presentations](#presentations)
+## [Presentations](#presentations)
 
 {% include cv-talks.html entries=site.talks %}
