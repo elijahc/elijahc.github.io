@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/elijahc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.elijahc.net
+  * I am elijahc (https://keybase.io/elijahc) on keybase.
+  * I have a public key ASDUZAPW-2AApU_AZ9SdmQskYEPTksTQqOroNY6tJG167Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c3a9df8bd5a9243948d9dc33a9272799db9487959467872b536a566b7624d0460a",
+      "host": "keybase.io",
+      "kid": "0120d46403d6fb6000a54fc067d49d990b246043d392c4d0a8eae8358ead246d7aed0a",
+      "uid": "ac79b52470133f439f17d571ed1ae119",
+      "username": "elijahc"
+    },
+    "merkle_root": {
+      "ctime": 1589320026,
+      "hash": "ebf149e1ccf95ac8e7d40680238a24821679bd801c7a1d29026f84fb7e9591858324db4554430e925bb234cddd9767722247e7c2c631a631ff7e82d3333c5ab8",
+      "hash_meta": "a16b33c4065b7c245f20d44e2bb6e36d68cf691df58909111df6b80a0c28da35",
+      "seqno": 16271271
+    },
+    "service": {
+      "entropy": "CzAlxvDhzKb+1L4u98YO+nOZ",
+      "hostname": "www.elijahc.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1589320059,
+  "expire_in": 504576000,
+  "prev": "559f038994282e37a1bcc79ed2020da7110cded3b71b31b72240e7f5e08fcd52",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1GQD1vtgAKVPwGfUnZkLJGBD05LE0Kjq6DWOrSRteu0Kp3BheWxvYWTESpcCEMQgVZ8DiZQoLjehvMee0gINpxEM3tO3GzG3IkDn9eCPzVLEICcci4TOO8tGxAVYYAvy7tl3hwRavk3DiPazLXm/XJXiAgHCo3NpZ8RATXHdPtt8QkbTJadm3fEBPTM4E/CZ5zKAoI/yEBo7QepWsW2d3KRSE1QT3i7ddEiYdKCTN2UAnp8pOt8JciKFAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFhgZCKr6OwI1zbcRhNsTxRN9F+MGYE7kEMk1SaYRwfro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/elijahc
+
+==================================================================
