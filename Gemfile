@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem 'jekyll-sitemap'
   gem 'jekyll-paginate'
+  gem 'jekyll-twitter-plugin'
   gem 'jemoji'
   gem "jekyll-include-cache"
   gem 'hawkins'
