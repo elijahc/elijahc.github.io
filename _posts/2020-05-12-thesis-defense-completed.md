@@ -2,7 +2,6 @@
 layout: single
 title: Thesis Defense Complete
 date: 2020-05-12
-permalink: /posts/2020
 header:
   teaser: 'graduate_dab.jpg'
   overlay_image: 'graduate_dab.jpg'
