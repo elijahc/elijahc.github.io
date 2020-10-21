@@ -11,13 +11,28 @@ One students cobbled together handbook for outpatient pediatrics
 ## Well Child Visit
 
 - [Newborn](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=25){:target="_blank"}
-- [3-5 days](https://drive.google.com/open?id=18bGnYX9h69IOjFLxy5CJjhK8TOnX7Sar&disco=AAAAKjxVTOY){:target="_blank"}
+
+- [3-5 days](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=31){:target="_blank"}
+
+- [1 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=35){:target="_blank"}
+
+- [2 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=41){:target="_blank"}
+
+- [4 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=45){:target="_blank"}
+
 
 ## Developmental Milestones
 
 [First-Aid Overview](https://drive.google.com/file/d/1wW5KGUm40HPNepHpLPbXa5Ps4MrvSB-Q/view?usp=sharing)
 
+
 ## CU Clinic Site Guides
+
+### Telehealth
+
+Download vidyo from (childrens telehealth)[https://telehealth.childrenscolorado.org]
+
+
 
 ### Child Health Clinic (CHC)
 
