@@ -27,6 +27,11 @@ Quick links to Bright Futures
 
 [15 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=61){:target="_blank"}
 
+### Exam
+
+> Think about the exam from least invasive to most invasive
+
+Opthalmoscope, Auscultation, Abdominal, GU (not without chaperone), Otoscope
 
 ### Developmental Milestones
 
