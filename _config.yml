@@ -176,6 +176,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  pocket:
+    output: true
+    permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
@@ -192,7 +195,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
       read_time: true
       comments: true
       share: true
@@ -229,6 +232,13 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _pocketguides
+  - scope:
+      path: ""
+      type: pocket
+    values:
+      layout: single
+      # share: true
 
 # Sass/SCSS
 sass:
