@@ -8,22 +8,37 @@ category: guide
 
 One students cobbled together handbook for outpatient pediatrics
 
+[ICAC Website](https://sites.google.com/view/cu-peds-block-4)
+
+[CHCO prework screen](https://www.google.com/url?q=https%3A%2F%2Fredcap.childrenscolorado.org%2Fsurveys%2F%3Fs%3DMJ8JLF44LK&sa=D&sntz=1&usg=AFQjCNGwzTde93s2bKcbMhUOWEeeD00Q-A)
+
 ## Well Child Visit
 
-- [Newborn](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=25){:target="_blank"}
+Quick links to Bright Futures
 
-- [3-5 days](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=31){:target="_blank"}
+[Newborn](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=25){:target="_blank"}
+, [3-5 days](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=31){:target="_blank"}
+, [1 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=35){:target="_blank"}
+, [2 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=41){:target="_blank"}
+, [4 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=45){:target="_blank"}
+, [6 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=49){:target="_blank"}
+, [9 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=53){:target="_blank"}
+, [12 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=57){:target="_blank"}
 
-- [1 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=35){:target="_blank"}
-
-- [2 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=41){:target="_blank"}
-
-- [4 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=45){:target="_blank"}
+[15 mo](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e2cdab9a-6bfa-436b-b61c-17b9a6a4f913#page=61){:target="_blank"}
 
 
-## Developmental Milestones
+### Developmental Milestones
 
 [First-Aid Overview](https://drive.google.com/file/d/1wW5KGUm40HPNepHpLPbXa5Ps4MrvSB-Q/view?usp=sharing)
+
+### Well Child Oral Presentation
+
+- 1 liner and parent acute concerns
+- Discuss diet, 
+
+
+
 
 
 ## CU Clinic Site Guides
