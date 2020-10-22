@@ -10,3 +10,7 @@ One students cobbled together handbook for outpatient pediatrics
 ## Sections
 
 [Outpatient](http://elijahc.net/pocket/ICAC-outpatient/)
+
+[Outpatient](/pocket/ICAC-outpatient)
+
+## 
