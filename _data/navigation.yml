@@ -28,6 +28,11 @@ pocket-peds:
 
   - title: "Newborn"
     url: /pocket/newborn/
+    children:
+      - title: 'Common Problems'
+        url: '/pocket/newborn-common-problems'
+      - title: 'Peripartum Timeline'
+        url: /pocket/peripartum-timeline
 
   - title: "Outpatient"
     url: /pocket/outpatient-peds/
@@ -38,3 +43,5 @@ pocket-peds:
         url: /pocket/vaccination
       - title: "Asthma"
         url: /pocket/asthma/
+
+  - title: "Inpatient"

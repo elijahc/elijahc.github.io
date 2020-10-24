@@ -3,7 +3,7 @@ layout: single
 title: Newborn
 date: 2020-10-21
 sidebar:
-    nav: pocket-peds
+    nav: pocket-ped
 header:
 ---
 
