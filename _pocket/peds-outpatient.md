@@ -1,9 +1,17 @@
 ---
 layout: single
-title: ICAC - Outpatient Handbook
+title: Outpatient Pediatrics
 date: 2020-10-20
+sidebar:
+    nav: pocket-peds
 header:
 ---
+
+## Common reasons for vist
+
+![outpatient](/images/pocket/peds_op_cc.png)
+
+![hosp](/images/pocket/peds_hosp_cc.png)
 
 ## Well Child Visit
 

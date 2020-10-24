@@ -21,3 +21,20 @@ cv:
     url: /cv/#publications
   - title: "Presentations"
     url: /cv/#presentations
+
+pocket-peds:
+  - title: "Pocket Pediatrics"
+    url: /pocket/pediatrics/
+
+  - title: "Newborn"
+    url: /pocket/newborn/
+
+  - title: "Outpatient"
+    url: /pocket/outpatient-peds/
+    children:
+      - title: "Well Child Visits"
+        url: /pocket/well-child/
+      - title: "Vaccination"
+        url: /pocket/vaccination
+      - title: "Asthma"
+        url: /pocket/asthma/

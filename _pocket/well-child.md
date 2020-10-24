@@ -2,6 +2,8 @@
 layout: single
 title: Well Child Check
 date: 2020-10-21
+sidebar:
+    nav: pocket-peds
 header:
 ---
 
