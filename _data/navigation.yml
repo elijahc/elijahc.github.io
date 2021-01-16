@@ -45,3 +45,12 @@ pocket-peds:
         url: /pocket/asthma/
 
   - title: "Inpatient"
+
+pocket-obgyn:
+- title: "Pocket OBGYN"
+  url: /pocket/obgyn/
+  children:
+    - title: 'obstetrics'
+      url: '/pocket/obstetrics/'
+    - title: 'gynecology'
+      url: '/pocket/gynecology'
