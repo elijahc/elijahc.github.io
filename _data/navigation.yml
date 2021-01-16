@@ -48,7 +48,7 @@ pocket-peds:
 
 pocket-obgyn:
 - title: "Pocket OBGYN"
-  url: /pocket/obgyn/
+  url: /pocket/ob-gyn/
   children:
     - title: 'obstetrics'
       url: '/pocket/obstetrics/'
