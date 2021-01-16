@@ -50,7 +50,7 @@ pocket-obgyn:
 - title: "Pocket OBGYN"
   url: /pocket/ob-gyn/
   children:
-    - title: 'obstetrics'
+    - title: 'Obstetrics'
       url: '/pocket/obstetrics/'
-    - title: 'gynecology'
+    - title: 'Gynecology'
       url: '/pocket/gynecology'
