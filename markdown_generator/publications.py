@@ -54,6 +54,11 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+def nature_cite(authors, title, year, journal):
+    auth_str = '., '.join(authors)
+    cite = '{}. <i>{}</i> ({}).'.format(auth_str,journal, year)
+    return cite
+
 
 # ## Creating the markdown files
 # 
@@ -64,8 +69,15 @@ def html_escape(text):
 import os
 for row, item in publications.iterrows():
     
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
+    url_slug = '-'.join([w.lower() for w in item.title.split(' ')])
+    short_slug = '-'.join([w.lower() for w in item.title.split(' ')][:4])
+
+    authors = item.authors.split('; ')
+
+    cite = nature_cite(authors=authors,title=item.title, year=item.pub_date.split('-')[0], journal=item.venue)
+
+    md_filename = str(item.pub_date) + "-" + short_slug + ".md"
+    html_filename = str(item.pub_date) + "-" + url_slug
     year = item.pub_date[:4]
     
     ## YAML variables
@@ -84,25 +96,28 @@ for row, item in publications.iterrows():
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
-        md += "\npaperurl: '" + item.paper_url + "'"
+        md += "\npdf: '" + item.paper_url + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    if len(str(item.doi)) > 5:
+        md += "\ndoi: '" + item.doi + "'"
+    
+    md += "\ncitation: '" + html_escape(cite) + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
+
+    # md += "\n\n> {}\n\n".format('., '.join(authors))
+
+    if len(str(item.paper_url)) > 5:
+        md += "\n\n<a href='" + item.paper_url + "'>[PDF]</a>\n" 
         
-    md += "\nRecommended citation: " + item.citation
+    md += "\nRecommended Citation:\n\n{}".format(cite)
     
     md_filename = os.path.basename(md_filename)
        
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-
-
