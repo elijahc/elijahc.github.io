@@ -11,18 +11,24 @@ author_profile: true
 </h1>
 I'm a full stack software developer turned computational neuroscientist at the University of Colorado Anschutz.
 My current research interests lie at the intersection of machine learning and neuroscience.
-<h2>Recent Posts</h2>
+
+
+
+<h2>Posts</h2>
 <div class="grid__wrapper">
 <!-- {% assign dev-posts = site.posts | where: "categories","dev" %} -->
 {% for post in site.posts limit:4 %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
+</hr>
+</break>
 </div>
 
-<h2>Recent Publications</h2>
+<h2>Publications</h2>
 <div class="grid__wrapper">
-{% for post in site.publications reversed %}
-  {% include archive-single.html type="grid"%}
+{% for post in site.publications reversed limit:4 %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
 </div>
+
 {% include base_path %}

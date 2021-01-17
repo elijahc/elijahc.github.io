@@ -7,7 +7,7 @@ date: 2018-09-03
 venue: 'Journal of Sleep Research'
 pdf: 'http://www.jzlab.org/Christensen_JSleepResearch2018_LFP_ANN_DBS.pdf'
 doi: '10.1111/jsr.12806'
-citation: '<strong>Christensen, E</strong>., Abosch, A., Thompson, JA., Zylberberg, J. <i>Journal of Sleep Research</i> (2018).'
+citation: '<strong>Christensen, E</strong>., Abosch, A., Thompson, JA., Zylberberg, J. (2018)'
 header:
   teaser: jsr/fig2.jpg
 gallery:
