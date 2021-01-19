@@ -11,6 +11,8 @@ One students cobbled together handbook for CU Obstetrics and Gynecology
 
 ## Study Schedule
 
+Taken from [here](https://themdjourney.com/study-schedule-for-your-ob-gyn-rotation/)
+
 ### Week 1
 
 Begin reading Case Files for Ob-Gyn
