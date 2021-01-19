@@ -9,3 +9,5 @@ permalink: /pocket/ob-gyn/
 ---
 
 One students cobbled together handbook for CU Obstetrics and Gynecology
+
+## [Resources](/pocket/ob-gyn-resources)

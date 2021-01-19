@@ -9,11 +9,13 @@ header:
 
 ## Resources
 
-[American College of Obstetricians and Gynecologists](https://www.acog.org/)
+[ACOG Website](https://www.acog.org/)
 
-[Atlas of Pelvic Surgery](http://www.atlasofpelvicsurgery.com/home.html)
+[Atlas of Pelvic Surgery](http://www.atlasofpelvicsurgery.com/home.html) is a good resources for reviewing OBGYN surgeries
 
 [University of Colorado OBGYN Survival Guide](/files/ob-gyn-survival-guide.pdf)
+
+[2020-2021 Resident Schedule](/files/ob-gyn-resident-schedule-2020-2021.pdf)
 
 ## Example Study Schedule
 
