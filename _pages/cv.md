@@ -4,7 +4,7 @@ classes:
   - wide
   - cv
 title: "Elijah Christensen"
-permalink: /cv/
+permalink: /cv
 sidebar:
   - title: Elijah Christensen
     image: profile_pic.jpg
