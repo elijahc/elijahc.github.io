@@ -54,3 +54,5 @@ pocket-obgyn:
       url: '/pocket/obstetrics/'
     - title: 'Gynecology'
       url: '/pocket/gynecology'
+    - title: 'Resources'
+      url: '/pocket/ob-gyn-resources'
