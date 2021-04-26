@@ -18,7 +18,8 @@ My current research interests lie at the intersection of machine learning and ne
 
 <h2>Publications</h2>
 <div class="grid__wrapper">
-{% for post in site.publications reversed limit:4 %}
+{% assign rsort = site.publications | sort: 'date' | reverse %}
+{% for post in rsort limit:3 %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 <br>
