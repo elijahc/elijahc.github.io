@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Elijah Christensen"
-  avatar           : "profile_pic2.jpg"
-  bio              : "MD/PhD student, computational neuroscientist"
+  name             : "Elijah Christensen, PhD"
+  avatar           : "profile_3.jpg"
+  bio              : "MD/PhD student and computational neuroscientist at University of Colorado Anschutz Medical Campus"
   location         : "Denver, Colorado"
-  employer         : # Employer
+  employer         : "CU Anschutz"
   googlescholar    : "https://scholar.google.com/citations?user=9CWva_0AAAAJ"
-  email            : 'elijah.christensen@ucdenver.edu'
+  email            : 'elijah.christensen@cuanschutz.edu'
   uri              :
   bitbucket        :
   codepen          :
@@ -98,7 +98,7 @@ author:
   keybase          : "elijahc"
   instagram        : # "elijahd3"
   lastfm           :
-  linkedin         : # "elijahchristensen"
+  linkedin         : "elijahchristensen"
   orcid            : " https://orcid.org/0000-0003-2166-1169 "
   pinterest        :
   soundcloud       :
