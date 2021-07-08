@@ -16,10 +16,11 @@ I'm a former full-stack software developer turned computational neuroscientist a
 My current research interests lie at the intersection of machine learning and neuroscience but I also enjoy <a href="https://www.instagram.com/elijahd3/">photography</a> and data science. You can see recent publications below, a full list in the <a href="/publications/">publications section</a>, or my complete <a href="/files/edc-cv.pdf">CV</a>.
 </p>
 
+{% include base_path %}
 <h2>Publications</h2>
 <div class="grid__wrapper">
 {% assign rsort = site.publications | sort: 'date' | reverse %}
-{% for post in rsort limit:3 %}
+{% for post in rsort limit:4 %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 <br>
@@ -35,4 +36,3 @@ My current research interests lie at the intersection of machine learning and ne
 {% endfor %}
 </div>
 -->
-{% include base_path %}

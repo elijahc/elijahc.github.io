@@ -14,13 +14,11 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | relative_url }}"
-          {% endif %}
-          alt="">
+        {% unless teaser contains "://" %}
+          <img src="{{ teaser | prepend: '/images/' | relative_url }}" alt="">
+        {% else %}
+          <img src="{{ teaser }}" alt="">
+        {% endunless %}
       </div>
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
@@ -30,42 +28,35 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    <p class="page__meta">
+    {% if post.read_time %}{% include read-time.html %}{% endif %}
     {% if post.doi %}
-      <a href="https://doi.org/{{ post.doi }}"><i class="ai ai-fw ai-doi" aria-hidden="true"></i>{{post.doi}}</a>
+      <p class="page__meta">
+        <a href="https://doi.org/{{ post.doi }}"><i class="ai ai-fw ai-doi" aria-hidden="true"></i>{{post.doi}}</a>
+      </p>
     {% endif %}
-    </p>
 
 
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
     <p class="page__meta">
-    {% if post.arxiv %}
-      <a href="{{ post.arxiv }}" class="btn btn--inverse">Preprint</a>
-    {% endif %}
-
-    {% if post.pdf %}
-      <a href=
-      {% if post.pdf contains "://" %}
-        "{{ post.pdf }}"
-      {% else %}
-        "{{ post.pdf | prepend: "/files/" | relative_url }}"
+      {% if post.arxiv %}
+        <a href="{{ post.arxiv }}" class="btn btn--inverse">Preprint</a>
       {% endif %}
-      class="btn btn--inverse btn--small">PDF</a>
-    {% endif %}
 
-    {% if post.code %}
-      <a href="{{ post.code }}" class="btn btn--inverse">Code</a>
-    {% endif %}
+      {% if post.pdf %}
+        <a href=
+        {% if post.pdf contains "://" %}
+          "{{ post.pdf }}"
+        {% else %}
+          "{{ post.pdf | prepend: "/files/" | relative_url }}"
+        {% endif %}
+        class="btn btn--inverse btn--small">PDF</a>
+      {% endif %}
+
+      {% if post.code %}
+        <a href="{{ post.code }}" class="btn btn--inverse">Code</a>
+      {% endif %}
     </p>
-
-
-
-
-
 
     </p>
   </article>
